@@ -43,9 +43,10 @@ const renderPosts = (datas) => {
             const spancomments = document.createElement("span");
             spancomments.classList.add("span-comment");
             spancomments.innerText = `
+            ID: 1 ${comment.id}
             Explanation: ${comment.name}
             Email : ${comment.email}
-            Comment: ${comment.name}
+
             `
             dialog.appendChild(spancomments);
           });
